@@ -1,0 +1,153 @@
+.container_24{
+	margin-top: 20px;
+}
+
+
+.banner
+{
+	background: url(im1.jpg) no-repeat;
+	width: 75%;
+	height: 231px;
+	margin-top: 0px;
+
+}
+header{
+	overflow: hidden;
+}
+
+a{
+	color: #7e7e7e;
+	text-decoration: none;
+}
+a:hover, .selected{
+	color: black;
+}
+
+header h1{
+	background: url(im2.jpg) no-repeat;
+	text-indent: -9999px;
+	width: 174px;
+	height: 35px;
+	margin-top:6px;
+	margin-left: 3px;
+	float: left;
+}
+blockquote{
+	position: relative;
+
+}
+
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	margin-top: 5px;
+}
+.main blockquote p{
+	padding-left: 28px;
+}
+.main blockquote p:first-child:before{
+
+ content: '"';
+ font-size: 30px;
+ color: red;
+ font-style: italic;
+ position: absolute;
+ top:0;
+ left: 0;
+
+}
+.main blockquote p:last-child:after{
+
+ content: '"';
+ font-size: 30px;
+ color: red;
+ font-style: italic;
+ float: right;
+ position: absolute;
+ bottom:-7px;
+ right: 0;
+
+}
+nav{
+	float: right;
+	margin: 10px 30px 20px;
+
+
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.banner h2{
+	color: white;
+	font-size: 20px;
+	margin-top:90px;
+	margin-left: 5px;
+	border:1px solid;
+	
+}
+.head {
+width: 80%;
+}
+h3{
+	font-size: 30px;
+	letter-spacing:-1px;
+	
+	
+}
+
+nav li
+{
+display: inline;
+padding: 8px;
+}
+
+nav a{
+	text-transform: lowercase;
+}
+.callout
+{
+	background-color:  black;
+	height: 231px;
+	width: 25%;
+	margin-top: 0;
+}
+
+.main{
+	margin-top: 40px;
+	
+}
+
+.button{
+	margin-top: 20px;
+	background:black;
+	padding: 6px;
+
+}
+.button:hover{
+	color: white;
+}
+.grid_9
+{
+	margin-top: 25px;
+}
+.main .grid_6
+{
+	margin-top: 25px;
+}
+footer{
+	margin-top: 30px;
+	clear: both;
+}
+.work h2{
+	font-size: 26px;
+}
+.work img
+{
+	width: 280px;
+	margin-bottom: 10px;
+}
+.work h4{
+	color: grey;
+}
